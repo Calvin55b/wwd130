@@ -1,0 +1,19 @@
+nav, footer{
+    background-color: aqua;
+    color: black;
+    padding: 2%;
+    text-align: center;
+}
+
+body {
+    background-color:whitesmoke;
+    color: brown;
+    text-align: center;
+    
+}
+
+h1 {
+    color: black;
+    background-color: aquamarine;
+    font-size: 2em;
+}
