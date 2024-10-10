@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(95, 156, 241, 0.905);
+    color: white;
+    
+}
+
+h1:hover {
+    color: black;
+    
+}
+
+ol {
+    text-align: left;
+    color: black;
+    font-weight: 1000;
+}
+h2{
+    padding: 25px 90px 25px 90px;
+    
+
+}
+
+footer {
+    color: black;
+
+    font-weight: 750;
+    font-size: small;
+    padding: 0px 75px 0px 75px ;
+    
+
+}
