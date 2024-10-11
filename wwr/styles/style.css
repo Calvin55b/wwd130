@@ -2,8 +2,10 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-nav #hero #home-grid {
+nav, #hero, #home-grid {
     text-align: center;
+    background-color: black;
+    
 }
 
 
