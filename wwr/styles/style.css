@@ -1,21 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Serif+Oriya:wght@400..700&display=swap');
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color:  #00F5D3  ;
+    --secondary-color: #2DD1F7 ;
+    --accent1-color: #43FA65;
+    --accent2-color: #2753FA;
+    --accent3-color: white;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Noto Serif Oriya", arial,serif;
+    --paragraph-font: "Noto Serif Oriya", serif,arial ;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #1169a8;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #396E94  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #43FA65;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+  }
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-nav, #hero, #home-grid {
-    text-align: center;
-    background-color: black;
+nav, #hero, .home-grid {
     
+    background-color:var(--accent3-color);
+    font-family: var(--heading-font);
+    text-align: center;
+}
+.button-box a {
+    text-align: center;
+}
+#logo-link {
+    padding-top: 5px;
+}
+.home-grid{
+    text-align: center;
 }
 
-
-#background {
+.background {
     height: 725px;
 }
 body {
     background-color: #FA7832;
-    color: white;
-    text-align: center;
+    color: black;
+    font-size: 22px;
+    margin:0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+.rivers-card, .camping-card, .reapids-card {
+    margin: 200px 0;
 }
 
 header {
@@ -26,43 +67,68 @@ header {
     width: 80px;
 }
 nav a{
-    color: white;
+    color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color:#FAC761;
-    color: white;
+    color: black;
 }
 .home-title{
-    color: aliceblue;
+    color: black;
+    font-family: var(--paragraph-font);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
 }
 h4{
-    color: white;
+    color: black;
+    text-align: center;
 }
 .book, .join {
     background-color:gray;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.card-img {
+    border: 10px solid black;
 }
 .book:hover, .join:hover {
     background-color:rgb(163, 38, 38);
 }
 .msg h2{
     color: black;
+    font-family: var(--paragraph-font);
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+main section img {
+    box-sizing: border-box;
 }
 #background {
     background-color:#FAED61;
 }
 .msg {
     background-color:#FAD68E;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #FAC761;
     font-size: 1.2em;
     color: black;
+    margin-top: 200px;
+    padding: 25px 50px;
     
 }
 footer a{
@@ -77,7 +143,11 @@ footer a:hover{
 }
 .icon{
     width: 80px ;
+    padding-top: 10px;
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
