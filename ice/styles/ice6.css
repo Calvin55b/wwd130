@@ -22,13 +22,13 @@
     grid-row: 1/2;
     font-size: 10em;
     text-align: center;
-    font-size: 18rem;
+    font-size: 3rem;
 
 }
 .cherries_text{
     color: rgba(163, 9, 9, 0.61);
     grid-column: 2/3;
     grid-row:2/3;
-    font-size: 15rem;
+    font-size: 3rem;
     text-align: center;
 }
