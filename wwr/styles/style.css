@@ -218,6 +218,23 @@ footer .social img {
     display: block;
     margin: auto auto;
 }
+/*From here down is the Css for my Rivers child page*/
+.content_rivers{
+    text-align: center;
+    margin: auto;
+}
+.title2{
+    text-decoration: underline;
+    
+
+}
+.main_photo2{
+    border: 8px solid black;
+
+}
+.p2{
+
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
